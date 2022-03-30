@@ -10,19 +10,20 @@
 
 body{
     background-color: #f7f1e9;
+    height: 100vh;
 }
 
-header{
+nav{
     height: 58px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
 }
 
 nav ul{
     display: flex;
     margin: 0px 15px;
+    width: 40%;
 }
 
 nav ul li{
@@ -33,7 +34,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.644);
-    font-weight: 800;
+    font-weight: 900;
     font-size: 16px;
 
 }
@@ -45,13 +46,84 @@ nav ul li a:hover{
 }
 
 .icon{
+    width: 40%;
     display: flex;
+    justify-content: flex-end;
 }
 
 .icon a img {
     height: 30px;
     width: auto;
-    margin-right: 15px;
+    margin: 0px 15px;
     
     
+}
+
+main{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 74vh;
+}
+
+section.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    width: 40%;
+}
+
+section p{
+    color: rgba(0, 0, 0, 0.658);
+    max-width: 270px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px; 
+}
+
+section p#line{
+    border-left: 3px solid #32353898;
+    margin-left: 13px;
+}
+
+
+section h1{
+    min-width: 365px;
+    max-width: 550px;
+    font-size: 60px;
+    padding: 10px; 
+    
+    
+}
+
+
+.btn{
+    margin-top: 20px;
+}
+.btn input{
+    text-decoration: none;
+    color: black;
+    padding: 10px 21px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.btn .shop{
+    background-color: #FFCC81;
+    border: 0px;
+}
+
+.btn .services{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+
+section.dog{
+    width: 40%;
 }

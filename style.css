@@ -127,3 +127,9 @@ section h1{
 section.dog{
     width: 40%;
 }
+
+.dog img{
+    height: 100%;
+    width: auto;
+    
+}

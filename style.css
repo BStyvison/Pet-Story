@@ -6,6 +6,11 @@
     box-sizing: border-box;
     list-style: none;
     font-family:  'Be Vietnam Pro', sans-serif;
+    
+}
+
+img{
+    height: 100%;
 }
 
 body{
@@ -33,7 +38,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.644);
+    color: #3c434dcc;
     font-weight: 900;
     font-size: 16px;
 
@@ -61,16 +66,17 @@ nav ul li a:hover{
 
 main{
     margin-top: 35px;
+
+}
+
+.container{
+    height: 74vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-section{
-    height: 74vh;
-}
-
-section.description {
+.description {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,25 +84,26 @@ section.description {
     width: 40%;
 }
 
-section p{
-    color: rgba(0, 0, 0, 0.658);
+.description p{
+    color: #3c434dcc;
     max-width: 270px;
     font-weight: bold;
     font-size: 18px;
     padding: 10px; 
 }
 
-section p#line{
+.description p#line{
     border-left: 3px solid #32353898;
-    margin-left: 13px;
+    margin-left: 13px; 
 }
 
 
-section h1{
+.description h1{
+    max-width: 530px;
     min-width: 365px;
-    max-width: 550px;
     font-size: 60px;
     padding: 10px; 
+    color: #32353E;
     
     
 }
@@ -118,12 +125,62 @@ section h1{
     border: 0px;
 }
 
+.btn .shop:hover{
+    background-color: #DD7F41;
+    transition: 0.6s ease-in-out;
+}
+
 .btn .services{
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.24);
 }
 
+.btn .services:hover{
+    background-color: #B0B0B2;
+    transition: 0.6s ease-in-out;
+}
 
-section.dog{
+
+.dog{
     width: 40%;
+}
+
+.dog img{
+    height: 74vh;
+    width: auto;
+    
+}
+
+@media (max-width: 920px)
+{
+    .container{
+        height: 65vh;
+        margin-top: 64px;
+    }
+    .description{
+        width: 45%;
+    }
+    .dog{
+        width: 45%;
+    }
+    .dog img{
+        height: 57vh;
+        width: auto;
+    }
+
+}
+
+@media (max-width: 777px)
+{
+    .container{
+        height: auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .description{
+        padding: 0%;
+    }
+
 }

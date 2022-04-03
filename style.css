@@ -176,17 +176,6 @@ main{
 
 @media (max-width: 777px)
 {
-    .container{
-        height: auto;
-        margin-top: 25px;
-        display: flex;
-        flex-direction: column-reverse;
-        
-    }
-    .description{
-        padding: 0%;
-    }
-
     .icon{
         display: none;
     }
@@ -207,10 +196,16 @@ main{
         
         
     }
+    #nav{
+    display: flex;
+    justify-content: flex-end;
+    }
+
     #nav.active #menu {
         height:calc(100vh - 58px);
         visibility: visible;
         overflow-y: auto;
+        margin: 0;        
     }
     
     #menu li{
@@ -220,7 +215,10 @@ main{
     }
 
     #btn-mobile{
+        width: 100px;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 8px 16px;
         font-size: 16px;
         border: none;
@@ -254,6 +252,24 @@ main{
     #nav.active #hamburger::after{
         transform: rotate(-135deg);
         top: -7px;
+    }
+    .container{
+        height: auto;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .dog{
+        height: 334px;
+        width: 334px;
+    }
+    .description{
+        margin-top: 15px;
+        padding: 0;
+        height: 100%;
+        width: 334px;
     }
 
 }

@@ -18,8 +18,11 @@ body{
     height: 100vh;
 }
 
-nav{
+header{
     height: 58px;
+}
+
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,16 +34,14 @@ nav ul{
     width: 40%;
 }
 
-nav ul li{
-    margin: 0px 15px;
-    padding: 6px 15px;
-}
 
 nav ul li a{
     text-decoration: none;
     color: #3c434dcc;
     font-weight: 900;
     font-size: 16px;
+    margin: 0px 15px;
+    padding: 6px 15px;
 
 }
 
@@ -164,7 +165,12 @@ footer{
 }
 
 @media (max-width: 920px)
-{
+{   
+    header{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
     .container{
         height: 65vh;
         margin-top: 64px;
@@ -198,15 +204,11 @@ footer{
         z-index: 1000;
         height: 0px;
         visibility: hidden;
-        overflow-y: hidden;
-        
-        
-        
-        
+        overflow-y: hidden;   
     }
-    #nav{
-    display: flex;
-    justify-content: flex-end;
+
+    #body.active {
+        overflow-y: hidden;
     }
 
     #nav.active #menu {

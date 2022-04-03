@@ -11,3 +11,16 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu)
 btnMobile.addEventListener('touchstart', toggleMenu)
+
+
+// Hidden body when active toggle
+
+const bodyHidden = document.getElementById('body')
+
+function hiddenAll() {
+    bodyHidden.classList.toggle('active')
+    const active = body.classList.contains('active')
+
+}
+
+bodyHidden.addEventListener('click', hiddenAll)

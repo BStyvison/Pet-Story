@@ -64,6 +64,10 @@ nav ul li a:hover{
     
 }
 
+.icon #cel{
+    transform: rotate(90deg);
+}
+
 #btn-mobile{
     display: none;
 }
@@ -188,7 +192,7 @@ footer{
         position: absolute;
         width: 100%;
         top: 58px;
-        right: 0px;
+        right: 0;
         background: #f7f1e9;
         transition: .4s;
         z-index: 1000;

@@ -166,7 +166,7 @@ footer{
 
 @media (max-width: 920px)
 {   
-    header{
+    #nav{
         display: flex;
         justify-content: flex-end;
         align-items: center;

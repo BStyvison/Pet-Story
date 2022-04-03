@@ -155,6 +155,10 @@ main{
     
 }
 
+footer{
+    padding: 15px;
+}
+
 @media (max-width: 920px)
 {
     .container{
@@ -220,6 +224,7 @@ main{
         align-items: center;
         justify-content: space-between;
         padding: 8px 16px;
+        margin-right: 14px;
         font-size: 16px;
         border: none;
         background: none;
@@ -266,7 +271,7 @@ main{
         width: 334px;
     }
     .description{
-        margin-top: 15px;
+        margin-top: 30px;
         padding: 0;
         height: 100%;
         width: 334px;

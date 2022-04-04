@@ -20,9 +20,6 @@ body{
 
 header{
     height: 58px;
-}
-
-nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,11 +163,6 @@ footer{
 
 @media (max-width: 920px)
 {   
-    #nav{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
     .container{
         height: 65vh;
         margin-top: 64px;
@@ -190,6 +182,10 @@ footer{
 
 @media (max-width: 766px)
 {
+    header{
+        display: flex;
+        justify-content: flex-end;
+    }
     .icon{
         display: none;
     }

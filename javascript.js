@@ -1,5 +1,6 @@
-const btnMobile = document.getElementById('btn-mobile')
 const bodyHidden = document.getElementById('body')
+const btnMobile = document.getElementById('btn-mobile')
+
 
 function toggleMenu(event) {
     if (event.type === 'touchstart') event.preventDefault()
@@ -11,6 +12,6 @@ function toggleMenu(event) {
 }
 
 btnMobile.addEventListener('click', toggleMenu)
-bodyHidden.addEventListener('click', hiddenAll)
 btnMobile.addEventListener('touchstart', toggleMenu)
+bodyHidden.addEventListener('click', hiddenAll)
 

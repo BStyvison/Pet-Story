@@ -208,7 +208,7 @@ footer{
     }
 
     #nav.active #menu {
-        height:calc(100vh - 58px);
+        height:calc(100vh + 2px);
         visibility: visible;
         overflow-y: auto;
         margin: 0;        
@@ -279,4 +279,15 @@ footer{
         width: 334px;
     }
 
+}
+
+@media (max-width: 325px)
+{
+    #nav.active #menu {
+        width: 349px;
+        height: calc(100vh + 24px);
+        visibility: visible;
+        overflow-y: auto;
+        margin: -22px;
+    }
 }

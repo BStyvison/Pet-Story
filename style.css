@@ -52,6 +52,7 @@ nav ul li a:hover{
     width: 40%;
     display: flex;
     justify-content: flex-end;
+    margin-right: 30px;
 }
 
 .icon a img {

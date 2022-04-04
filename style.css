@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family:  'Be Vietnam Pro', sans-serif;
+    font-size: 62.5%;
     
 }
 
@@ -36,7 +37,7 @@ nav ul li a{
     text-decoration: none;
     color: #3c434dcc;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin: 0px 15px;
     padding: 6px 15px;
 
@@ -95,7 +96,7 @@ main{
     color: #3c434dcc;
     max-width: 270px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.9rem;
     padding: 10px; 
 }
 
@@ -108,7 +109,7 @@ main{
 .description h1{
     max-width: 530px;
     min-width: 365px;
-    font-size: 60px;
+    font-size: 6rem;
     padding: 10px; 
     color: #32353E;
     
@@ -118,6 +119,7 @@ main{
 
 .btn{
     margin-top: 20px;
+    font-size: 1.8rem;
 }
 .btn input{
     text-decoration: none;
